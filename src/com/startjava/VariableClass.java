@@ -2,7 +2,7 @@ package com.startjava;
 
 public class VariableClass {
     /* To calculate the range of datatype use formula
-            2^(n-1)    where n= (no of byte) * 8
+          [ - 2^(n-1) to 2^(n-1)-1 ]   where n= (no of byte) * 8
      */
     int num = 10; // size-4 byte
     short sh = 123; // size-2 byte
@@ -25,5 +25,10 @@ public class VariableClass {
         System.out.println(db);
         System.out.println(ch);
         System.out.println(bool);
+    }
+
+    public static void main(String[] args) {
+        VariableClass obj=new VariableClass(); //object declaration
+
     }
 }

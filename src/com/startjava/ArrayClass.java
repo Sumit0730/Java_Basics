@@ -30,8 +30,9 @@ public class ArrayClass {
             Scanner scan = new Scanner(System.in);
             words[i]=scan.nextLine();
         }
-        for (String word:words
-             ) {
+        // fOR EACH LOOP
+        for (String word:words)
+              {
             System.out.println(word);
         }
 
