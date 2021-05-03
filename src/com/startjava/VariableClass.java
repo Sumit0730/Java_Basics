@@ -29,6 +29,7 @@ public class VariableClass {
 
     public static void main(String[] args) {
         VariableClass obj=new VariableClass(); //object declaration
+        obj.Printdatatype(); // For Printing The Values.
 
     }
 }
