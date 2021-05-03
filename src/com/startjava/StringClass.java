@@ -20,8 +20,18 @@ public class StringClass {
     }
 }
 class String_Builder {
+    //  toString #################################
+    String car_name="Ford";
+    String car_model="mustang";
+    String car_size="four-seater";
 
-
+    @Override
+    public String toString() {
+        return "car_name='" + car_name + '\'' +
+                ", car_model='" + car_model + '\'' +
+                ", car_size='" + car_size + '\'' +
+                '}';
+    }
 
     public static void main(String[] args) {
 
@@ -41,7 +51,12 @@ class String_Builder {
 
         /////////// String Formatting///////////////////////////////////////////////////////////////
         System.out.println("hello\tmy name is sumit\nI m a programmer");
-        System.out.printf("My age is %d",20);
+        System.out.printf("My age is %d\n",20);
+
+        //////////// to String //////////////////////////
+        String_Builder cars=new String_Builder();
+        System.out.println(cars.toString());
+
 
     }
 }
